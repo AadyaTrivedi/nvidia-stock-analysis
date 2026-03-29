@@ -41,13 +41,7 @@ This project analyzes NVIDIA stock data using Python and Pandas to understand pr
 * Hands-on experience with Pandas for data analysis
 * Understanding of financial indicators (SMA, RSI, trends)
 * Feature engineering and signal-based analysis
-
-🚀 Future Improvements
-
-* Add data visualization (Matplotlib / Plotly)
-* Build interactive dashboard (Streamlit)
-* Extend to multi-stock comparison
-* Develop predictive models
+  
 
 ⚙️ Tech Stack
 
