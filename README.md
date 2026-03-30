@@ -1,15 +1,20 @@
-📊 NVIDIA Stock Data Analysis (Pandas Project)
+# 📊 NVIDIA Stock Data Analysis (Pandas & NumPy Project)
 
-🚀 Overview
+## 🚀 Overview
 
-This project analyzes NVIDIA stock data using Python and Pandas to understand price trends, market behavior, and technical indicators.
+This project analyzes NVIDIA stock data using Python, Pandas, and NumPy to understand price trends, market behavior, and technical indicators.
+It focuses on feature engineering, trend-based signal analysis, and statistical insights derived from historical stock data.
 
-📁 Dataset
+---
+
+## 📁 Dataset
 
 * Historical NVIDIA stock dataset (1999–present)
-* Features include OHLC prices, volume, moving averages, RSI, and key events
+* Features include OHLC prices, volume, moving averages (SMA), RSI, and key events
 
-🛠️ What I Did
+---
+
+## 🛠️ What I Did
 
 * Cleaned and preprocessed the dataset
 * Converted date column to datetime format
@@ -19,32 +24,58 @@ This project analyzes NVIDIA stock data using Python and Pandas to understand pr
   * Daily price change
   * Daily return (%)
 
-📈 Analysis Performed
+---
+
+## 📈 Analysis Performed
 
 * Percentage of bullish vs bearish days
-* Average daily return, max gain, and max loss
+* Average daily return, maximum gain, and maximum loss
 * Trend analysis using:
 
   * SMA 20 (short-term)
   * SMA 50 (mid-term)
   * SMA 200 (long-term)
+* Generated trading signals:
 
- 🔥 Key Insights
+  * Trend Signal (Above/Below SMA 20)
+  * Trend Strength (Uptrend/Downtrend)
+  * Golden Cross (Long-term bullish signal)
+
+---
+
+## ⚡ NumPy Integration
+
+* Used `np.where()` for efficient vectorized signal generation
+* Computed stock volatility using standard deviation of returns
+* Applied NumPy-based filtering and statistical analysis for performance comparison
+
+---
+
+## 🔥 Key Insights
 
 * Stock shows nearly balanced bullish and bearish days (~50/50 split)
-* Slight tendency toward downtrend phases
-* Golden cross signals occur frequently, indicating cyclical bullish periods
-* Strong bullish conditions (aligned across all trends) occur less frequently but indicate high momentum phases
+* Slight tendency toward downtrend phases, but not significantly dominant
+* Golden cross signals occur frequently, indicating cyclical bullish periods rather than sustained trends
+* Strong bullish conditions (alignment across all indicators) are relatively rare but signal high momentum phases
+* The stock exhibits **consistent volatility (~0.44%)** across both uptrend and downtrend phases
+* Price fluctuations remain stable regardless of market direction
 
-🧠 Learning Outcomes
+---
 
-* Hands-on experience with Pandas for data analysis
+## 🧠 Learning Outcomes
+
+* Hands-on experience with Pandas and NumPy for data analysis
 * Understanding of financial indicators (SMA, RSI, trends)
 * Feature engineering and signal-based analysis
-  
+* Applying statistical methods (volatility, conditional analysis) to real-world data
 
-⚙️ Tech Stack
+---
+
+## ⚙️ Tech Stack
 
 * Python
 * Pandas
+* NumPy
+
+---
 
