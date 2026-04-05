@@ -76,6 +76,8 @@ It focuses on feature engineering, trend-based signal analysis, and statistical 
 * Python
 * Pandas
 * NumPy
+* Matplotlib
+* Strealit
 
 ---
 
