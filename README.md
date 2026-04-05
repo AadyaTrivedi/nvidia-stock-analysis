@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-This project analyzes NVIDIA stock data using Python, Pandas, and NumPy to understand price trends, market behavior, and technical indicators.
+This project analyzes NVIDIA stock data using Python, Pandas, and NumPy to understand price trends, market behaviour, and technical indicators.
 It focuses on feature engineering, trend-based signal analysis, and statistical insights derived from historical stock data.
 
 ---
@@ -46,7 +46,7 @@ It focuses on feature engineering, trend-based signal analysis, and statistical 
 ## ⚡ NumPy Integration
 
 * Used `np.where()` for efficient vectorized signal generation
-* Computed stock volatility using standard deviation of returns
+* Computed stock volatility using the standard deviation of returns
 * Applied NumPy-based filtering and statistical analysis for performance comparison
 
 ---
@@ -77,7 +77,7 @@ It focuses on feature engineering, trend-based signal analysis, and statistical 
 * Pandas
 * NumPy
 * Matplotlib
-* Strealit
+* Streamlit
 
 ---
 
